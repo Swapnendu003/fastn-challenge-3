@@ -1,40 +1,138 @@
--- ds.page: Welcome to doc-site
+-- ftd.background-image bg-image: 
+src: $assets.files.assets.2909.jpg
+repeat: no-repeat 
+position: center 
+
+-- ftd.shadow s: 
+color: white
+x-offset.px: 1
+y-offset.px: 1 
+blur.px: 5
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 1000
+background.image: $bg-image 
+align-content: center
+spacing: space-evenly 
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+-- ftd.image:
+src: $assets.files.assets.IMG_8470.JPG
+width.fixed.px: 150
+height.fixed.px: 150
+border-radius.px: 100
+margin-left.px: 200
+shadow: $s 
+
+-- ftd.row:
+width: fill-container
+align-content: center
+spacing: space-evenly 
+padding-vertical.px: 30 
+padding-horizontal.px: 200
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.image:
+src: $assets.files.assets.insta.png
+width.fixed.px: 30
+height.fixed.px: 30
+margin-left.px: 85
+link: https://www.instagram.com/swapno_banerjee/
+open-in-new-tab: true 
+-- ftd.image:
+src: $assets.files.assets.linkedin.png
+width.fixed.px: 30
+height.fixed.px: 30
+margin-left.px: 80
+link: https://www.instagram.com/swapno_banerjee/
+open-in-new-tab: true 
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.image:
+src: $assets.files.assets.twitter.png
+width.fixed.px: 30
+height.fixed.px: 30
+margin-left.px: 75
+link: https://twitter.com/SwapnenduB426
+open-in-new-tab: true 
 
--- ds.h3: 🚀 Fast Track 
+-- end: ftd.row
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- end: ftd.column
 
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing: space-evenly 
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.column:
+width: fill-container
+align-content: center
+margin-right.px: 500
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: Swapnendu Banerjee
+role: $inherited.types.heading-large
+padding.px: 3
+text-align: center
+color: white
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: Backend Developer
+role: $inherited.types.copy-regular
+text-align: center
+color: white
+margin-bottom.px: 60
 
--- ds.h2: Learn fastn and become a pro?
+-- end: ftd.column
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: VISIT MY GITHUB
+role: $inherited.types.copy-regular
+padding-vertical.px: 6
+margin-vertical.px: 15
+margin-right.px: 400
+text-align: center
+color: white
+link: https://github.com/Swapnendu003
+border-width.px: 2
+border-color: white
+border-radius.px: 4
+width.fixed.px: 350
+open-in-new-tab: true 
 
--- end: ds.page
+-- ftd.text: CONNECT ON LINKEDIN
+role: $inherited.types.copy-regular
+padding-vertical.px: 6
+margin-vertical.px: 15
+margin-right.px: 400
+text-align: center
+color: white
+link: https://www.linkedin.com/in/swapnendu-banerjee-36ba06219/
+border-width.px: 2
+border-color: white
+border-radius.px: 4
+width.fixed.px: 350
+open-in-new-tab: true 
+
+
+
+-- ftd.text: CONTACT ME
+role: $inherited.types.copy-regular
+padding-vertical.px: 6
+margin-vertical.px: 15
+margin-right.px: 400
+text-align: center
+color: white
+border-width.px: 2
+border-color: white
+border-radius.px: 4
+width.fixed.px: 350
+link:  https://cal.com/swapnendu-banerjee-atx2il/30min?layout=mobile&date=2023-10-09&month=2023-10
+open-in-new-tab: true 
+
+-- end: ftd.column
+
+-- end: ftd.row
